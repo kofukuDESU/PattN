@@ -15,7 +15,7 @@ on:
         default: false
     secrets:
       GPG_PRIVATE_KEY:
-        required: false
+        required: true
 
 permissions:
   contents: write
